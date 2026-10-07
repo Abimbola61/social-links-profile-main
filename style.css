@@ -1,0 +1,27 @@
+*{
+    /* padding: 0;  */
+    /* margin: 0;  */
+    box-sizing: border-box; 
+  }
+
+:root {
+    /* colors */
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+
+    /* fonts */ 
+    --font-family: 'Inter', sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-Semibold: 600;
+    --font-weight-bold: 700;
+}
+
+body{
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
